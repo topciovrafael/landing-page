@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin:0;
+    overflow-x:hidden;
     
 }
 
@@ -44,7 +45,7 @@ body{
 .stanga{
     display: flex;
     flex-direction: column;
-margin-left: -100px;
+margin-left: 100px;
 }
 
 .foodimage{
@@ -136,9 +137,9 @@ img{
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 36px;
     padding: 80px;
-    width: 100%;
 }
 
 a{
@@ -162,8 +163,8 @@ a{
 .parteapatru{
     display: flex;
     background-color:#3882F6;
-    width: 100%;
     align-items: center;
+    width: 100%;
     justify-content: center;
     color:#F9FAF8;
     font-size: 36px;
